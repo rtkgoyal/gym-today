@@ -1,5 +1,5 @@
 /* Gym Today offline cache: serves the saved copy instantly, refreshes it in the background. */
-var CACHE = 'gym-today-65cb7e09';
+var CACHE = 'gym-today-48f40b6e';
 var ASSETS = ['./', './index.html', './manifest.webmanifest', './icon-180.png', './icon-192.png', './icon-512.png', './icon-maskable-512.png'];
 self.addEventListener('install', function (e) {
   e.waitUntil(caches.open(CACHE).then(function (c) {
